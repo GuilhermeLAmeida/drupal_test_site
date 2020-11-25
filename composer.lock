@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eed209107b7e30ae6484394d03a187ad",
+    "content-hash": "e2ca19e0ec7e94eacbc15e0e1992afb2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1168,6 +1168,52 @@
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             }
+        },
+        {
+            "name": "drupal/helpfulness",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/helpfulness.git",
+                "reference": "34e51fda629ba44f569957d3d9cd80f99fffd199"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2+1-dev",
+                    "datestamp": "1599050816",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gueguerreiro",
+                    "homepage": "https://www.drupal.org/user/3589301"
+                },
+                {
+                    "name": "heymo",
+                    "homepage": "https://www.drupal.org/user/445520"
+                }
+            ],
+            "description": "Provides a block for the user to leave feedback",
+            "homepage": "https://www.drupal.org/project/helpfulness",
+            "support": {
+                "source": "https://git.drupalcode.org/project/helpfulness"
+            },
+            "time": "2020-09-02T12:46:32+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4380,7 +4426,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/helpfulness": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
